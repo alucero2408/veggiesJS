@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+a:visited {
+  color: white; }
+
+body {
+  background-color: #d4d4d4; }
+
+.nav-link {
+  color: #e4e4e4 !important; }
+
+header {
+  padding: 20px;
+  font-size: 24px;
+  color: #DBDC89;
+  background-color: #d4d4d4;
+  background-size: cover;
+  background-image: url(../img/header.png);
+  font-family: 'Cormorant', serif; }
+
+.menu {
+  background-color: #4fa062; }
+
+
+footer {
+  background-color: #4fa062; }
+
+.button-primary-color{
+  background-color: #4fa062 !important;
+  color:#ffffff;
+}
+
+.footer-text {
+  padding: 15px;
+  color: #e4e4e4; }
+
+.card{
+  background-color: transparent;
+  border: 0px;
+  width: 18rem;
+}
+
+.card-body{
+  background-color: #eaeaea;
+}
+
+.list-group-item{
+  background-color: #eaeaea;
+}
+
+@media (max-width: 1780px) {
+  .card{
+    width: 13rem;
+  }
+}
+
+@media (min-width: 1460px) {
+  .card{
+    width: 15rem;
+  }
+}
